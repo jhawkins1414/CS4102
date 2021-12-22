@@ -1,0 +1,23 @@
+//disjoint set class
+public class DisjSet{
+
+    //construct disjoint set
+    DisjSet(int nodeNum){
+
+    }
+
+    //find method
+    public int find(int index){
+        for(int i = 0 ; i < num; i++){
+            if(this.set[i] == index){
+                return index;
+            }
+            index = this.set[index];
+        }
+    }
+
+    //union method
+    public void union(){
+        
+    }
+}
